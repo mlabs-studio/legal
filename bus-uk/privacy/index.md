@@ -1,8 +1,8 @@
 # Bus UK — Privacy Policy
 
-**Last updated:** 11 June 2026
+**Last updated:** 20 June 2026
 
-This Privacy Policy describes how **Xuan Toan Mai** trading as mlabs studio ("we", "us", "our") handles information in connection with the **Bus UK** mobile application ("the App"). By using the App, you agree to the practices described below.
+This Privacy Policy explains how **Xuan Toan Mai** trading as mlabs studio ("we", "us", "our") handles information in connection with the **Bus UK** mobile application ("the App").
 
 ## Summary
 
@@ -16,9 +16,11 @@ This Privacy Policy describes how **Xuan Toan Mai** trading as mlabs studio ("we
 
 ### 1.1 Location data
 
-The App requests permission to access your device's location **while the App is in use**. Your approximate location is sent to Transport for London ("TfL") to find nearby bus stops and arrival predictions. We do not store your location on our servers — it is used in-memory to make the request and then discarded.
+The App requests permission to access your device's location **while the App is in use**. Your approximate location is sent to Transport for London ("TfL") to find nearby bus stops and arrival predictions. We do not store your location on our servers.
 
-Location data is transmitted only when required to perform nearby-stop searches and is **not used for tracking your movements over time**.
+To open the map near you on future launches, the App may store your last known location **locally on your device** (in the App's own storage). This local copy is not sent to our servers and is removed when you delete the App or clear its data in iOS Settings.
+
+Location data is transmitted only when required to perform nearby-stop or geocoding searches and is **not used for tracking your movements over time**.
 
 You can deny or revoke location permission at any time in iOS Settings. Without it, the App cannot automatically find stops near you, but you can still search manually.
 
@@ -34,7 +36,7 @@ We do **not** collect your name, email address, phone number, contacts, photos, 
 
 PostHog's own privacy policy is available at: https://posthog.com/privacy
 
-**You can turn off analytics at any time** via Settings → Privacy → "Anonymous usage analytics".
+**Consent**: on first launch, the App asks whether you want to share this analytics and crash data. If you choose "Not now", nothing is sent. You can change your choice at any time via Settings → Privacy → "Anonymous usage analytics".
 
 ### 1.3 Crash and error reports
 
@@ -45,15 +47,21 @@ We use two services to receive these reports:
 - [PostHog](https://posthog.com/) — for errors caught within the App's JavaScript layer.
 - [Sentry](https://sentry.io/) — additionally for native (iOS) crashes and unhandled errors that PostHog cannot see.
 
-Crash and error reports are governed by the same opt-out as analytics above.
+Crash and error reports are governed by the same consent as analytics above.
+
+### 1.4 Feedback emails
+
+If you choose to send feedback via the "Send Feedback" link in Settings, your email app may send us your email address and any message you include. Error-context feedback may include app version, build number, device platform, OS version, the bus stop name and ID you were viewing, and a short technical error description. You can edit or remove any of this information before sending.
 
 ## 2. Third parties
 
-We share data only with the following services, strictly for the App to function:
+We share data with the following services for app functionality, postcode and place search, analytics, and error diagnosis:
 
 | Service | Purpose | Data shared |
 |---|---|---|
 | Transport for London (TfL) Unified API | Bus stops, arrivals, route data | Your approximate location, only while you use the App |
+| Postcodes.io | UK postcode autocomplete in the search box | Partial postcode text you type |
+| Apple geocoding services | Converting searched places and postcodes into map coordinates | Search text submitted for geocoding |
 | PostHog (EU region) | Product analytics, JavaScript-layer error reports | Pseudonymous device ID, event names, device metadata |
 | Sentry (EU region) | Native crash and unhandled-error reports | Stack traces, device metadata, app version |
 
@@ -66,7 +74,7 @@ We do not share data with advertisers, data brokers, or any other third party.
 Under the UK GDPR and EU GDPR, we rely on the following legal bases:
 
 - **Consent** — for access to your device location (granted via the iOS system prompt and revocable at any time in iOS Settings).
-- **Consent** — for usage analytics and crash reporting (granted via the in-app toggle in Settings; revocable at any time).
+- **Consent** — for usage analytics and crash reporting (granted via the first-launch in-app prompt; revocable at any time via the toggle in Settings).
 - **Legitimate interests** — for handling location data in transit to TfL solely to fulfil your request for nearby-stop information.
 
 ## 4. Your rights
@@ -79,11 +87,11 @@ To exercise your privacy rights or ask questions about this policy, contact us a
 
 ## 5. Children's privacy
 
-The App is rated 4+ and is suitable for all ages. We do not knowingly collect personal information from children.
+The App is rated 4+ and is suitable for all ages, but is not directed specifically at children. We do not knowingly collect directly identifying information from children. If analytics is enabled, the App may collect the pseudonymous analytics and diagnostic data described in section 1.
 
 ## 6. Data retention
 
-- Location data: not stored by us.
+- Location data: not stored on our servers. The App may store your last known location locally on your device until you delete the App or clear its data in iOS Settings.
 - Analytics events: retained by PostHog in line with their [data-retention policy](https://posthog.com/privacy).
 - Crash and error reports: retained by Sentry in line with their [data-retention policy](https://sentry.io/legal/privacy/).
 

@@ -1,12 +1,12 @@
 # Bus UK — Terms of Use
 
-**Last updated:** 8 June 2026
+**Last updated:** 20 June 2026
 
 These Terms of Use ("Terms") govern your use of the **Bus UK** mobile application ("the App") provided by **Xuan Toan Mai** trading as mlabs studio ("we", "us", "our"). By installing or using the App, you agree to these Terms. If you do not agree, do not use the App.
 
 ## 1. The service
 
-The App displays bus stop locations, arrival predictions, and route information for London bus services, using data provided by Transport for London ("TfL"). The App is provided free of charge for personal, non-commercial use.
+The App displays bus stop locations, arrival predictions, and route information for London bus services, using data provided by Transport for London ("TfL"). The App is provided free of charge for personal transport information use.
 
 The App is intended for users of all ages.
 
