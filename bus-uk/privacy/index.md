@@ -18,7 +18,7 @@ This Privacy Policy explains how **Xuan Toan Mai** trading as mlabs studio ("we"
 
 The App requests permission to access your device's location **while the App is in use**. Your approximate location is sent to Transport for London ("TfL") to find nearby bus stops and arrival predictions. We do not store your location on our servers.
 
-To open the map near you on future launches, the App may store your last known location **locally on your device** (in the App's own storage). This local copy is not sent to our servers and is removed when you delete the App or clear its data in iOS Settings.
+To open the map near you on future launches, the App may store your last known location **locally on your device** (in the App's own storage). This local copy is not sent to our servers. It is replaced when the App saves a newer location and is removed when you delete the App.
 
 Location data is transmitted only when required to perform nearby-stop or geocoding searches and is **not used for tracking your movements over time**.
 
@@ -91,7 +91,7 @@ The App is rated 4+ and is suitable for all ages, but is not directed specifical
 
 ## 6. Data retention
 
-- Location data: not stored on our servers. The App may store your last known location locally on your device until you delete the App or clear its data in iOS Settings.
+- Location data: not stored on our servers. The App may store your last known location locally on your device; it is replaced when a newer location is saved and removed when you delete the App.
 - Analytics events: retained by PostHog in line with their [data-retention policy](https://posthog.com/privacy).
 - Crash and error reports: retained by Sentry in line with their [data-retention policy](https://sentry.io/legal/privacy/).
 
