@@ -1,6 +1,6 @@
 # Bus UK — Privacy Policy
 
-**Last updated:** 27 June 2026
+**Last updated:** 28 June 2026
 
 This Privacy Policy explains how **Xuan Toan Mai** trading as mlabs studio ("we", "us", "our") handles information in connection with the **Bus UK** mobile application ("the App").
 
@@ -94,8 +94,8 @@ The App is rated 4+ and is suitable for all ages, but is not directed specifical
 ## 6. Data retention
 
 - Location data: not stored on our servers. The App may store your last known location locally on your device; it is replaced when a newer location is saved and removed when you delete the App.
-- Analytics events: retained by PostHog in line with their [data-retention policy](https://posthog.com/privacy).
-- Crash and error reports: retained by Sentry in line with their [data-retention policy](https://sentry.io/legal/privacy/).
+- Analytics events: retained by PostHog for 12 months and then deleted. See PostHog's [data-retention policy](https://posthog.com/privacy) for details.
+- Crash and error reports: retained by Sentry for 12 months and then deleted. See Sentry's [data-retention policy](https://sentry.io/legal/privacy/) for details.
 
 ## 7. Security
 
