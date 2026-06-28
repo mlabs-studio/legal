@@ -95,7 +95,7 @@ The App is rated 4+ and is suitable for all ages, but is not directed specifical
 
 - Location data: not stored on our servers. The App may store your last known location locally on your device; it is replaced when a newer location is saved and removed when you delete the App.
 - Analytics events: retained by PostHog for up to 1 year, then deleted. See PostHog's [data-retention policy](https://posthog.com/privacy) for details.
-- Crash and error reports: retained by Sentry for up to 90 days, then deleted. See Sentry's [data-retention policy](https://sentry.io/legal/privacy/) for details.
+- Crash and error reports: retained by Sentry for up to 90 days, then deleted. See Sentry's [data-retention policy](https://sentry.io/privacy/) for details.
 
 ## 7. Security
 
