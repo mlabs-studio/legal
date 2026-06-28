@@ -1,6 +1,6 @@
 # Bus UK — Privacy Policy
 
-**Last updated:** 28 June 2026
+**Last updated:** 29 June 2026
 
 This Privacy Policy explains how **Xuan Toan Mai** trading as mlabs studio ("we", "us", "our") handles information in connection with the **Bus UK** mobile application ("the App").
 
@@ -89,7 +89,7 @@ To exercise your privacy rights or ask questions about this policy, contact us a
 
 ## 5. Children's privacy
 
-The App is rated 4+ and is suitable for all ages, but is not directed specifically at children. We do not knowingly collect directly identifying information from children. If analytics is enabled, the App may collect the pseudonymous analytics and diagnostic data described in section 1.
+The App is rated 4+ and is suitable for all ages, but is not directed specifically at children. We do not knowingly collect directly identifying information from children. The protections described in section 1 apply equally to all users regardless of age. If analytics is enabled, the App may collect the pseudonymous analytics and diagnostic data described in section 1.
 
 ## 6. Data retention
 
